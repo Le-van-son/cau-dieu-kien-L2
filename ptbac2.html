@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phuong trinh b2</title>
+</head>
+<body>
+<input id="nhap1"><br>
+<input id="nhap2"><br>
+<input id="nhap3">
+<button onclick="bam()"> click</button>
+<script>
+    function bam() {
+        let a = document.getElementById("nhap1").value
+        let b = document.getElementById("nhap2").value
+        let c = document.getElementById("nhap3").value
+        let delta = b * b - 4 * a * c
+        let x = -b / (2 * a)
+        let x1 = (-b + (delta ** (1 / 2))) / (2 * a)
+        let x2 = (-b - (delta ** (1 / 2))) / (2 * a)
+
+        if (delta < 0)
+        document.write("Phương trình vô nghiệm")
+    else
+        if (delta == 0)
+            document.write("phương trình có nghiệm là x = " + x)
+        else
+            document.write("Pt có nghiệm x1= " + x1 + " x2 = " +x2)
+    }
+</script>
+</body>
+</html>
