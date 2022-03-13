@@ -10,10 +10,14 @@
 <script>
     function bam() {
         let a = document.getElementById("nhap").value
-        if (0 < a && a <= 120) {
-            document.write("Đây là tuổi ")
+        if (parseInt(a) === a) {
+            if (0 < a && a <= 120) {
+                document.write("Đây là tuổi ")
+            } else {
+                document.write("Cái gì đây")
+            }
         } else {
-            document.write("Cái gì đây")
+            document.write("Lỗi nhập")
         }
     }
 </script>
