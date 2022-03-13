@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tien dien</title>
+</head>
+<body>
+<input id="nhap">
+<button onclick="bam()"> click</button>
+
+<script>
+    function bam() {
+        let sd = +document.getElementById("nhap").value
+        let td1;
+        let td2;
+        let td3;
+        let td4;
+        if (sd >= 0 && sd <= 50) {
+            td1 = sd * 1.678
+            document.write(" " + td1)
+        }
+        else if (sd < 100 && sd > 50) {
+            td2 = 50*1.678 + ((sd - 50) * 1.734)
+            document.write(" " + td2)
+
+        }
+        else if (sd < 200 && sd > 100) {
+            td3 = 50*1.678 + 50*1.734+ ((sd - 100) * 2.014)
+            document.write(" " + td3)
+
+        }
+        else {
+            td4 = 50*1.678 + 50*1.734+ 100*2.014+ ((sd - 200)*3.0)
+            document.write("tien dien là" +td4)
+        }
+    }
+
+</script>
+
+</body>
+</html>

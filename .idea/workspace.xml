@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="276824ac-d94f-4a5a-b5d5-8f9aba322394" name="Changes" comment="">
-      <change beforePath="E:/cau truc dieu kien loai 2/.idea/workspace.xml" beforeDir="false" afterPath="E:/cau truc dieu kien loai 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="E:/cau truc dieu kien loai 2/ktra_tamgiac.html" beforeDir="false" afterPath="E:/cau truc dieu kien loai 2/ktra_tamgiac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tien_dien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="E:/cau truc dieu kien loai 2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Sự kiện chuột/Timsolonnhat.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -46,7 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1647072930372</updated>
       <workItem from="1647072931435" duration="4171000" />
-      <workItem from="1647138362163" duration="5990000" />
+      <workItem from="1647138362163" duration="6556000" />
+      <workItem from="1647187924553" duration="4244000" />
     </task>
     <servers />
   </component>
