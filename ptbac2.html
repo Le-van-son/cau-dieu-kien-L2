@@ -5,9 +5,9 @@
     <title>phuong trinh b2</title>
 </head>
 <body>
-<input id="nhap1"><br>
-<input id="nhap2"><br>
-<input id="nhap3">
+<input id="nhap1" placeholder="nhap a"><br>
+<input id="nhap2" placeholder="nhap a"><br>
+<input id="nhap3" placeholder="nhap a">
 <button onclick="bam()"> click</button>
 <script>
     function bam() {
@@ -20,12 +20,11 @@
         let x2 = (-b - (delta ** (1 / 2))) / (2 * a)
 
         if (delta < 0)
-        document.write("Phương trình vô nghiệm")
-    else
-        if (delta == 0)
+            document.write("Phương trình vô nghiệm")
+        else if (delta == 0)
             document.write("phương trình có nghiệm là x = " + x)
         else
-            document.write("Pt có nghiệm x1= " + x1 + " x2 = " +x2)
+            document.write("Pt có nghiệm x1= " + x1 + " x2 = " + x2)
     }
 </script>
 </body>
