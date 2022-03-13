@@ -5,6 +5,26 @@
     <title>kiểm tra tam giác</title>
 </head>
 <body>
-
+<input id="Nhap1"/>
+<input id="Nhap2">
+<input id="Nhap3">
+<button onclick="bam()">click</button>
+<script>
+    function bam() {
+        let a = +document.getElementById("Nhap1").value;
+        let b = +document.getElementById("Nhap2").value;
+        let c = +document.getElementById("Nhap3").value;
+        if (a > 0 && b > 0 && c > 0) {
+            if( a+b>c && a+c>b && b+c > a){
+                document.write("đây là tam giac")
+            }
+            else {
+                document.write("Lỗi luôn")
+            }
+        }else {
+            document.write("Lỗi")
+        }
+    }
+</script>
 </body>
 </html>
